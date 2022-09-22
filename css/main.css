@@ -265,16 +265,21 @@ textarea {
 
 /* main css start from header*/
 
+.top-section{
+  background: url("../img/background.png");
+}
 .top-bg{
-  background: url("../img/top-bg.png");
   text-align: center;
 }
-
+.bottle {
+  text-align: center;
+  padding-bottom: 25px;
+}
 .white-banner {
 	background: url("../img/white-banner.png");
 	height: 270px;
 	width: 90%;
-	margin: 0 auto;
+	margin: 0 auto 30px auto;
 	
 }
 .title {
@@ -299,8 +304,14 @@ textarea {
 .top-tagline {
 	font-size: 32px;
 }
-img.single-bottle {
-  width: 25%;
+img.single-bottle.first {
+  width: 30%;
+}
+img.single-bottle.second {
+  width: 30%;
+}
+img.single-bottle.third {
+  width: 30%;
 }
 .bottle{
   text-align: center;
@@ -308,6 +319,12 @@ img.single-bottle {
 .strength {
   width: 12%;
   float: left;
+}
+.second-row{
+  padding-top: 10px;
+}
+.strength label{
+  font-weight: 700;
 }
 .details-info {
   width: 85%;
@@ -317,19 +334,55 @@ img.single-bottle {
 .strength a {
   border: 1px solid;
   padding: 5px 12px;
-  width: 50px;
   line-height: 60px;
+  font-weight: 700;
 }
-.cta-btn{
-  background: #f3893d;
-  color: #fff;
-  border-radius:50%;
 
-}
 .cta-btn {
   background: #f3893d;
   color: #fff !important;
   border-radius: 25px;
   padding: 10px 25px;
   margin-left: 20px;
+}
+p.cta-txt {
+  margin-left: 20px;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+.bottom-bg {
+  background: #18202D;
+  padding: 20px 0px;
+  overflow: hidden;
+}
+
+.bottom-bg li {
+  color: #fff;
+  list-style: none;
+  display: inline;
+  border-right: 1px solid;
+  padding: 0 5px;
+}
+
+.footer-right-menu {
+  text-align: right;
+  padding-right: 50px;
+}
+.bottom-last-row{
+  text-align: center;
+}
+
+.text-center{
+  text-align: center;
+}
+.footer-middle p,
+.footer-middle span{
+  color:#fff;
+}
+.footer-middle a{
+  color:blue !important;
+}
+.col-md-6.left-section {
+  padding-top: 20px;
 }
