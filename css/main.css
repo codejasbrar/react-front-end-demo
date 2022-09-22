@@ -275,12 +275,14 @@ textarea {
   text-align: center;
   padding-bottom: 25px;
 }
+
 .white-banner {
-	background: url("../img/white-banner.png");
-	height: 270px;
-	width: 90%;
-	margin: 0 auto 30px auto;
-	
+  background: url("../img/white-banner.png");
+  height: 270px;
+  width: 90%;
+  margin: 0 auto 30px auto;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .title {
 	color: #fff;
